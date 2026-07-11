@@ -82,6 +82,9 @@ energy-var-backtesting/\
 ├── tests/\
 └── scripts/
 
+📚 Research Reference
+
+- [Backtesting of value at risk estimation methods for energy commodity trading: evaluating performance and identifying the optimal approach](https://www.researchgate.net/publication/384365458_Backtesting_of_value_at_risk_estimation_methods_for_energy_commodity_trading_evaluating_performance_and_identifying_the_optimal_approach)
 
 #### License
 This project is licensed under the [MIT License](LICENSE).  
