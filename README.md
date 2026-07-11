@@ -1,7 +1,8 @@
 #### Backtesting Value‑at‑Risk (VaR) Estimation Methods for Energy Commodity Trading
 
 📈 Overview
-This repository provides a complete, production‑ready implementation of the research paper 
+
+This repository provides a complete, production‑ready implementation of the research paper: 
 
 *Backtesting of Value at Risk Estimation Methods for Energy Commodity Trading: Evaluating Performance and Identifying the Optimal Approach*
 
