@@ -7,7 +7,7 @@ This repository provides a complete, production‑ready implementation of the re
 
 It delivers an end‑to‑end workflow for:
 
-- Natural Gas(NG) price ingestion (NYMEX NG & TTF)
+- Natural Gas price ingestion (NYMEX NG & TTF)
 - LSTM‑based forward price forecasting
 - Multiple VaR estimation engines
 - Comprehensive backtesting (QPS, Kupiec)
