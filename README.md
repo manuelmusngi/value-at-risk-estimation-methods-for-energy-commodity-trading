@@ -52,7 +52,7 @@ This project is designed for quantitative researchers, energy traders, risk mana
 
 - Full test suite for reliability
 
-📁 Repository Structure
+📁 Project Architecture
 
 energy-var-backtesting/\
 ├── README.md\
