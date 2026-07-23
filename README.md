@@ -80,7 +80,8 @@ energy-var-backtesting/\
 │   │   ├── cli/\
 │   │   └── reports/\
 ├── tests/\
-└── scripts/
+└── scripts/\
+
 
 📚 Research Reference
 
