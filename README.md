@@ -17,39 +17,24 @@ It delivers an end‑to‑end workflow for:
 
 This project is designed for quantitative researchers, energy traders, risk managers, and developers building real‑world risk analytics systems.
 
-🚀 Key Features
+🚀 Key Feature
+
 - Modular, extensible architecture
-
 - Config‑driven execution using YAML
-
 - LSTM forecasting pipeline for forward curves
-
 - Three VaR engines:
-
   - Variance–Covariance
-
   - Historical Simulation
-
   - Monte Carlo Simulation
-
 - Backtesting suite:
-
   - Quadratic Probability Score (QPS)
-
   - Exception counting
-
   - Kupiec test
-
 - Sensitivity analysis across:
-
   - Confidence levels (95%, 99%)
-
   - Horizons (1‑day, 10‑day)
-
   - Portfolio compositions
-
 - CLI automation for reproducibility
-
 - Full test suite for reliability
 
 📁 Project Architecture
