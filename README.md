@@ -41,15 +41,18 @@ This project is designed for quantitative researchers, energy traders, risk mana
 
 energy-var-backtesting/\
 ├── README.md\
-├── pyproject.toml\
+├── pyproject.toml            # or setup.cfg / requirements.txt\
+├── .env.example              # environment variables template\
 ├── config/\
-│   ├── base.yaml\
-│   ├── data.yaml\
-│   ├── model_lstm.yaml\
-│   ├── var.yaml\
-│   └── backtest.yaml\
+│   ├── base.yaml             # base configuration\
+│   ├── data.yaml             # data sources, paths\
+│   ├── model_lstm.yaml       # LSTM hyperparameters\
+│   ├── var.yaml              # VaR settings (confidence, horizon)\
+│   └── backtest.yaml         # backtesting & sensitivity settings\
 ├── data/\
 │   ├── raw/\
+│   │   ├── nymex_ng.csv\
+│   │   └── ttf_ng.csv\
 │   ├── interim/\
 │   └── processed/\
 ├── notebooks/\
@@ -58,15 +61,45 @@ energy-var-backtesting/\
 │   └── 03_var_method_comparison.ipynb\
 ├── src/\
 │   ├── energy_var_backtesting/\
+│   │   ├── __init__.py\
+│   │   ├── config.py\
+│   │   ├── logging_utils.py\
 │   │   ├── data/\
+│   │   │   ├── loader.py\
+│   │   │   ├── preprocessing.py\
+│   │   │   └── portfolio_builder.py\
 │   │   ├── models/\
+│   │   │   ├── lstm_model.py\
+│   │   │   └── lstm_pipeline.py\
 │   │   ├── risk/\
+│   │   │   ├── var_base.py\
+│   │   │   ├── var_variance_covariance.py\
+│   │   │   ├── var_historical.py\
+│   │   │   ├── var_monte_carlo.py\
+│   │   │   └── sensitivity.py\
 │   │   ├── backtesting/\
+│   │   │   ├── qps.py\
+│   │   │   ├── exceptions.py\
+│   │   │   └── runner.py\
 │   │   ├── cli/\
+│   │   │   ├── main.py\
+│   │   │   └── commands/\
+│   │   │       ├── run_lstm.py\
+│   │   │       ├── run_var.py\
+│   │   │       ├── run_backtest.py\
+│   │   │       └── run_sensitivity.py\
 │   │   └── reports/\
+│   │       ├── plots.py\
+│   │       └── summary.py\
 ├── tests/\
+│   ├── test_data_loader.py\
+│   ├── test_lstm_model.py\
+│   ├── test_var_methods.py\
+│   ├── test_qps.py\
+│   └── test_backtest_runner.py\
 └── scripts/\
-
+    ├── download_data.sh\
+    └── run_all.sh\
 
 📚 Research Reference
 
