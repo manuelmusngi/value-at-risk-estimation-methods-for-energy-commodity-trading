@@ -1,0 +1,20 @@
+# VaR configuration for all estimation engines
+
+methods:
+  - variance_covariance
+  - historical
+  - monte_carlo
+
+confidence_levels:
+  - 0.95
+  - 0.99
+
+horizon_days: 1             # 1-day VaR
+rolling_window_days: 250    # typical 1-year rolling window
+
+distribution: "normal"      # for parametric VaR
+
+# Monte Carlo settings
+monte_carlo:
+  n_scenarios: 10000
+  seed: 42
