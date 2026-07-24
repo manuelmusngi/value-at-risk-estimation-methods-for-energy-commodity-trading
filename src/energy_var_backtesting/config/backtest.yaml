@@ -1,0 +1,22 @@
+# Backtesting and sensitivity analysis configuration
+
+start_date: "2015-01-01"
+end_date: "2023-12-31"
+
+evaluation_metrics:
+  - qps
+  - exceptions
+  - kupiec
+
+output_dir: "reports/"
+
+sensitivity:
+  confidence_levels:
+    - 0.95
+    - 0.99
+  horizons:
+    - 1
+    - 10
+  portfolio_weights:
+    NYMEX_NG: [0.5, 0.7, 1.0]
+    TTF_NG:   [0.5, 0.3, 0.0]
