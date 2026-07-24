@@ -1,0 +1,8 @@
+# Base configuration for the Energy VaR Backtesting project
+
+log_dir: "logs/"
+random_seed: 42
+
+# Global settings
+timezone: "UTC"
+data_frequency: "D"        # daily
