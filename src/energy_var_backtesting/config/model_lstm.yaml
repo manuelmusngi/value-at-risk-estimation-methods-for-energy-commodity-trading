@@ -1,0 +1,14 @@
+# LSTM hyperparameters for forward price forecasting
+
+input_window: 60            # number of past days used as input
+forecast_horizon: 1         # predict next-day forward price
+hidden_size: 64
+num_layers: 2
+dropout: 0.10
+
+batch_size: 32
+epochs: 50
+learning_rate: 0.001
+
+# Model saving
+model_output_path: "models/lstm_nymex_ng.pt"
