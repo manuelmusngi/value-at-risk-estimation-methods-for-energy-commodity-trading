@@ -1,0 +1,20 @@
+# Data configuration for natural gas instruments
+
+raw_path: "data/raw/"
+interim_path: "data/interim/"
+processed_path: "data/processed/"
+
+instruments:
+  nymex_ng:
+    symbol: "NYMEX_NG"
+    description: "NYMEX Henry Hub Natural Gas Futures"
+    price_column: "close"
+    currency: "USD"
+    timezone: "America/New_York"
+
+  ttf_ng:
+    symbol: "TTF_NG"
+    description: "Dutch TTF Natural Gas Forward Prices"
+    price_column: "close"
+    currency: "EUR"
+    timezone: "Europe/Amsterdam"
