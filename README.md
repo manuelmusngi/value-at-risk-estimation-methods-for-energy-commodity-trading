@@ -1,12 +1,14 @@
 #### Backtesting Value‑at‑Risk (VaR) Estimation Methods for Energy Commodity Trading
 
-![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
-![Quant](https://img.shields.io/badge/Quant-Finance%20%7C%20Risk%20Modeling-lightgrey.svg)
-![Energy](https://img.shields.io/badge/Energy-Natural%20Gas-green.svg)
-![VaR](https://img.shields.io/badge/VaR-Parametric%20%7C%20Historical%20%7C%20MC-orange.svg)
-![Backtesting](https://img.shields.io/badge/Backtesting-QPS%20%7C%20Kupiec-red.svg)
-![LSTM](https://img.shields.io/badge/Forecasting-LSTM-blue.svg)
+![Risk Models](https://img.shields.io/badge/Risk%20Models-VarianceCovariance%20%7C%20Historical%20%7C%20MonteCarlo-orange.svg)
+![ML Forecasting](https://img.shields.io/badge/ML-LSTM%20Forward%20Prices-blue.svg)
+![Energy Commodities](https://img.shields.io/badge/Commodities-NYMEX%20NG%20%7C%20TTF-green.svg)
+![Backtesting Suite](https://img.shields.io/badge/Backtesting-QPS%20%7C%20Exceptions%20%7C%20Kupiec-red.svg)
+![Sensitivity](https://img.shields.io/badge/Sensitivity-Confidence%20%7C%20Horizon%20%7C%20Weights-purple.svg)
+![Pipeline](https://img.shields.io/badge/Pipeline-End--to--End%20Production%20Ready-black.svg)
+![Research](https://img.shields.io/badge/Research-Peer--Reviewed%20Paper-teal.svg)
 
+ 
 📈 Overview
 
 This repository provides a complete, production‑ready implementation of the research paper: 
