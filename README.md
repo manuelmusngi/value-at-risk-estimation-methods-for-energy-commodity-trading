@@ -1,5 +1,12 @@
 #### Backtesting Value‑at‑Risk (VaR) Estimation Methods for Energy Commodity Trading
 
+![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
+![Quant](https://img.shields.io/badge/Quant-Finance%20%7C%20Risk%20Modeling-lightgrey.svg)
+![Energy](https://img.shields.io/badge/Energy-Natural%20Gas-green.svg)
+![VaR](https://img.shields.io/badge/VaR-Parametric%20%7C%20Historical%20%7C%20MC-orange.svg)
+![Backtesting](https://img.shields.io/badge/Backtesting-QPS%20%7C%20Kupiec-red.svg)
+![LSTM](https://img.shields.io/badge/Forecasting-LSTM-blue.svg)
+
 📈 Overview
 
 This repository provides a complete, production‑ready implementation of the research paper: 
