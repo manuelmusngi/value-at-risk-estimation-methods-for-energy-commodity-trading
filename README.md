@@ -70,7 +70,7 @@ energy-var-backtesting/\
 │   └── 03_var_method_comparison.ipynb\
 ├── src/\
 │   ├── energy_var_backtesting/\
-│   │   ├── __init__.py\
+│   │   ├── [__init__.py](https://github.com/manuelmusngi/value-at-risk-estimation-methods-for-energy-commodity-trading/blob/main/src/energy_var_backtesting/__init__.py)\
 │   │   ├── config.py\
 │   │   ├── logging_utils.py\
 │   │   ├── data/\
