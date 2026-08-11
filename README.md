@@ -51,7 +51,7 @@ This project is designed for quantitative researchers, energy traders, risk mana
 energy-var-backtesting/\
 ├── README.md\
 ├── [pyproject.toml](https://github.com/manuelmusngi/value-at-risk-estimation-methods-for-energy-commodity-trading/blob/main/src/energy_var_backtesting/pyproject.toml)            # or setup.cfg / requirements.txt\
-├── .env.example              # environment variables template\
+├── [.env.example](https://github.com/manuelmusngi/value-at-risk-estimation-methods-for-energy-commodity-trading/blob/main/src/energy_var_backtesting/.env.example)              # environment variables template\
 ├── config/\
 │   ├── base.yaml             # base configuration\
 │   ├── data.yaml             # data sources, paths\
