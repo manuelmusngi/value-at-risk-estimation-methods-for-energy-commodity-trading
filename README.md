@@ -53,7 +53,7 @@ energy-var-backtesting/\
 ├── [pyproject.toml](https://github.com/manuelmusngi/value-at-risk-estimation-methods-for-energy-commodity-trading/blob/main/src/energy_var_backtesting/pyproject.toml)            # or setup.cfg / requirements.txt\
 ├── [.env.example](https://github.com/manuelmusngi/value-at-risk-estimation-methods-for-energy-commodity-trading/blob/main/src/energy_var_backtesting/.env.example)              # environment variables template\
 ├── config/\
-│   ├── base.yaml             # base configuration\
+│   ├── [base.yaml](https://github.com/manuelmusngi/value-at-risk-estimation-methods-for-energy-commodity-trading/blob/main/src/energy_var_backtesting/config/base.yaml)             # base configuration\
 │   ├── data.yaml             # data sources, paths\
 │   ├── model_lstm.yaml       # LSTM hyperparameters\
 │   ├── var.yaml              # VaR settings (confidence, horizon)\
