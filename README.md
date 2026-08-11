@@ -57,7 +57,7 @@ energy-var-backtesting/\
 │   ├── [data.yaml](https://github.com/manuelmusngi/value-at-risk-estimation-methods-for-energy-commodity-trading/blob/main/src/energy_var_backtesting/config/data.yaml)\
 │   ├── [model_lstm.yaml](https://github.com/manuelmusngi/value-at-risk-estimation-methods-for-energy-commodity-trading/blob/main/src/energy_var_backtesting/config/model_lstm.yaml)\
 │   ├── [var.yaml](https://github.com/manuelmusngi/value-at-risk-estimation-methods-for-energy-commodity-trading/blob/main/src/energy_var_backtesting/config/var.yaml)\
-│   └── backtest.yaml\
+│   └── [backtest.yaml](https://github.com/manuelmusngi/value-at-risk-estimation-methods-for-energy-commodity-trading/blob/main/src/energy_var_backtesting/config/backtest.yaml)\
 ├── data/\
 │   ├── raw/\
 │   │   ├── nymex_ng.csv\
