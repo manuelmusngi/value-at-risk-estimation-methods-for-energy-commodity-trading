@@ -76,7 +76,7 @@ energy-var-backtesting/\
 │   │   ├── data/\
 │   │   │   ├── [loader.py](https://github.com/manuelmusngi/value-at-risk-estimation-methods-for-energy-commodity-trading/blob/main/src/energy_var_backtesting/data/loader.py)\
 │   │   │   ├── [preprocessing.py](https://github.com/manuelmusngi/value-at-risk-estimation-methods-for-energy-commodity-trading/blob/main/src/energy_var_backtesting/data/preprocessing.py)\
-│   │   │   └── portfolio_builder.py\
+│   │   │   └── [portfolio_builder.py](https://github.com/manuelmusngi/value-at-risk-estimation-methods-for-energy-commodity-trading/blob/main/src/energy_var_backtesting/data/portfolio_builder.py)\
 │   │   ├── models/\
 │   │   │   ├── lstm_model.py\
 │   │   │   └── lstm_pipeline.py\
