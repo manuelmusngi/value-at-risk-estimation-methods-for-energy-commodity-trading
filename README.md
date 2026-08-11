@@ -83,7 +83,7 @@ energy-var-backtesting/\
 │   │   ├── risk/\
 │   │   │   ├── [var_base.py](https://github.com/manuelmusngi/value-at-risk-estimation-methods-for-energy-commodity-trading/blob/main/src/energy_var_backtesting/risk/var_base.py)\
 │   │   │   ├── [var_variance_covariance](https://github.com/manuelmusngi/value-at-risk-estimation-methods-for-energy-commodity-trading/blob/main/src/energy_var_backtesting/risk/var_variance_covariance.py).py\
-│   │   │   ├── var_historical.py\
+│   │   │   ├── [var_historical.py](https://github.com/manuelmusngi/value-at-risk-estimation-methods-for-energy-commodity-trading/blob/main/src/energy_var_backtesting/risk/var_historical.py)\
 │   │   │   ├── var_monte_carlo.py\
 │   │   │   └── sensitivity.py\
 │   │   ├── backtesting/\
