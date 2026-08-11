@@ -71,7 +71,7 @@ energy-var-backtesting/\
 ├── src/\
 │   ├── energy_var_backtesting/\
 │   │   ├── [__init__.py](https://github.com/manuelmusngi/value-at-risk-estimation-methods-for-energy-commodity-trading/blob/main/src/energy_var_backtesting/__init__.py)\
-│   │   ├── config.py\
+│   │   ├── [config.py](https://github.com/manuelmusngi/value-at-risk-estimation-methods-for-energy-commodity-trading/blob/main/src/energy_var_backtesting/config.py)\
 │   │   ├── logging_utils.py\
 │   │   ├── data/\
 │   │   │   ├── loader.py\
