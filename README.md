@@ -99,7 +99,7 @@ energy-var-backtesting/\
 │   │   │       └── [run_sensitivity.py](https://github.com/manuelmusngi/value-at-risk-estimation-methods-for-energy-commodity-trading/blob/main/src/energy_var_backtesting/cli/commands/run_sensitivity.py)\
 │   │   └── reports/\
 │   │       ├── [plots.py](https://github.com/manuelmusngi/value-at-risk-estimation-methods-for-energy-commodity-trading/blob/main/src/energy_var_backtesting/reports/plots.py)\
-│   │       └── summary.py\
+│   │       └── [summary.py](https://github.com/manuelmusngi/value-at-risk-estimation-methods-for-energy-commodity-trading/blob/main/src/energy_var_backtesting/reports/summary.py)\
 ├── tests/\
 │   ├── test_data_loader.py\
 │   ├── test_lstm_model.py\
