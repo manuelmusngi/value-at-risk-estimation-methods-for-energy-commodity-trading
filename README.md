@@ -88,7 +88,7 @@ energy-var-backtesting/\
 │   │   │   └── [sensitivity.py](https://github.com/manuelmusngi/value-at-risk-estimation-methods-for-energy-commodity-trading/blob/main/src/energy_var_backtesting/risk/sensitivity.py)\
 │   │   ├── backtesting/\
 │   │   │   ├── [qps.py](https://github.com/manuelmusngi/value-at-risk-estimation-methods-for-energy-commodity-trading/blob/main/src/energy_var_backtesting/backtesting/qps.py)\
-│   │   │   ├── exceptions.py\
+│   │   │   ├── [exceptions.py](https://github.com/manuelmusngi/value-at-risk-estimation-methods-for-energy-commodity-trading/blob/main/src/energy_var_backtesting/backtesting/exceptions.py)\
 │   │   │   └── runner.py\
 │   │   ├── cli/\
 │   │   │   ├── main.py\
